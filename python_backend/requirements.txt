@@ -1,0 +1,28 @@
+# FastAPI Backend Requirements
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.9
+
+# ML & Computer Vision - Compatible with Python 3.13
+ultralytics==8.3.0
+opencv-python==4.10.0.84
+numpy>=1.26.0
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Tracking
+scikit-learn>=1.4.0
+scipy>=1.11.0
+
+# Database
+supabase>=2.3.0
+python-dotenv==1.0.0
+
+# Additional dependencies
+Pillow>=12.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Async & Monitoring
+aiofiles==23.2.1
+websockets>=13.0,<16

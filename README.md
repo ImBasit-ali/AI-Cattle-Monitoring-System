@@ -27,15 +27,7 @@
 flutter pub get
 ```
 
-### 2. Configure Supabase
-Edit `lib/core/constants/app_constants.dart`:
-```dart
-static const String supabaseUrl = 'YOUR_SUPABASE_URL';
-static const String supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY';
-```
-
-### 3. Setup Database
-Run `supabase_schema.sql` in Supabase SQL Editor
+### 2. Firebase
 
 ### 4. Run Application
 ```bash

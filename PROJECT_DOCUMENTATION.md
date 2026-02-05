@@ -2,7 +2,7 @@
 
 ## 📋 Project Overview
 
-**Cattle AI Monitor** is an IoT-based Cattle Monitoring System built with Flutter and Supabase. The application focuses on three core entities:
+**Cattle AI Monitor** is an IoT-based Cattle Monitoring System built with Flutter and Firebase. The application focuses on three core entities:
 1. **Animal Identification** - Tracking cattle with unique IDs
 2. **Movement Analysis** - Monitoring daily activity patterns
 3. **Lameness Detection** - AI/ML-powered health monitoring
@@ -21,12 +21,9 @@
 - **Charts**: FL Chart, Syncfusion Charts
 
 #### Backend
-- **Supabase**
+- **Firebase**
   - Authentication
-  - PostgreSQL Database
-  - Real-time subscriptions
-  - Storage (videos, images)
-  - Edge Functions
+  - firestore
 
 #### Machine Learning
 - **TensorFlow Lite** - On-device inference

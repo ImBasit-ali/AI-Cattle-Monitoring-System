@@ -39,7 +39,7 @@ dependencies:
   provider: ^6.1.2
   
   # Charts and Visualization
-  fl_chart: ^0.68.0
+  fl_chart: ^1.1.1
   syncfusion_flutter_charts: ^26.2.11
   
   # Camera and Media
